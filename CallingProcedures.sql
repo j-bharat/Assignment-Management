@@ -1,0 +1,10 @@
+call validate_user('alok@student.com','alokpass');
+call validate_user('alok@student.com','wrongpassword');
+call reset_password('alok@student.com','newpass');
+call add_assignment('assignment1','easy','2023-04-12','aryan@email.com');
+call add_student_to_assignment(6,'shalini@email.com','aryan@email.com');
+call add_submission(20070,6,'submission.pdf');
+call grade_submission(10052,13,80,'good');
+call assignment_completion_rate(3);
+call updateteacherprofile('aryan@email.com',NULL,NULL,82899223);
+call assignment_statistics(3);
