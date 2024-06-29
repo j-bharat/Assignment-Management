@@ -5,6 +5,8 @@
 A normalised model for managing assignments, students, submissions, and grading.
 
 
+
+
 • Ideation of an EER model to define relationships between students, professors and the assignments posted.
 
 • Removal of all redundancies and normalization of the model to 3NF for maximum efficiency. 
